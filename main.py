@@ -25,6 +25,9 @@ from memory import can_use_free
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+# 🔥 WEBHOOK TEMİZLEME (ÇOK ÖNEMLİ)
+bot = Bot(BOT_TOKEN)
+bot.delete_webhook(drop_pending_updates=True)
 
 admins = os.getenv("ADMIN_IDS", "")
 
