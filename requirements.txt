@@ -1,0 +1,6 @@
+python-telegram-bot==21.6
+requests
+python-dotenv
+pillow
+PyPDF2
+python-docx
