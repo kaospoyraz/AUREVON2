@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-from telegram import Update
+from telegram import Update, Bot   # ✅ BURAYI DÜZELTTİK
 from telegram.ext import (
     ApplicationBuilder,
     CommandHandler,
